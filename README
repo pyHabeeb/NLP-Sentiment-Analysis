@@ -1,0 +1,16 @@
+# Social Media Sentiment Analysis Model
+
+This project uses Natural Language Processing (NLP) to classify the sentiment of social media posts.
+
+## Key Features
+- Processes and cleans raw text data using NLTK.
+- Implements advanced lemmatization with Part-of-Speech (POS) tagging.
+- Uses TF-IDF with N-grams for feature engineering.
+- Trains a Multinomial Naive Bayes classifier to predict sentiment (Positive, Negative, Neutral).
+
+## Technologies Used
+- Python
+- Pandas
+- NLTK
+- Scikit-learn
+- Google Colab
