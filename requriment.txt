@@ -1,0 +1,7 @@
+﻿kagglehub
+pandas
+nltk
+tqdm
+scikit-learn
+os 
+re
