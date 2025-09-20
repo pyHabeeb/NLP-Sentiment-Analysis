@@ -1,16 +1,36 @@
 # Social Media Sentiment Analysis Model
 
-This project uses Natural Language Processing (NLP) to classify the sentiment of social media posts.
+This project uses Natural Language Processing (NLP) to classify the sentiment of social media posts as Positive, Negative, or Neutral.
 
 ## Key Features
 - Processes and cleans raw text data using NLTK.
-- Implements advanced lemmatization with Part-of-Speech (POS) tagging.
+- Implements advanced lemmatization with Part-of-speech (POS) tagging.
 - Uses TF-IDF with N-grams for feature engineering.
-- Trains a Multinomial Naive Bayes classifier to predict sentiment (Positive, Negative, Neutral).
+- Trains a Multinomial Naive Bayes classifier to predict sentiment.
 
-## Technologies Used
-- Python
-- Pandas
-- NLTK
-- Scikit-learn
-- Google Colab
+## Results
+The model achieved **65% accuracy** on the test dataset. This represents a significant improvement over the random baseline accuracy of 33% for this three-class classification problem. The primary challenge was handling nuanced and sarcastic language, which is a known limitation of the Naive Bayes algorithm.
+
+Future improvements could include implementing more advanced models like LSTMs or fine-tuning a pre-trained transformer like DistilBERT.
+
+## Dataset
+This model was trained on the [**REPLACE THIS: Name of Your Dataset, e.g., "Twitter US Airline Sentiment"**] dataset, sourced from [**REPLACE THIS: e.g., Kaggle, or mention if you created it**].
+
+## How to Use
+
+1.  **Clone the repository:**
+    ```
+    git clone [https://github.com/pyHabeeb/NLP-Sentiment-Analysis.git](https://github.com/pyHabeeb/NLP-Sentiment-Analysis.git)
+    ```
+2.  **Navigate to the project directory:**
+    ```
+    cd NLP-Sentiment-Analysis
+    ```
+3.  **Install dependencies:**
+    ```
+    pip install -r requirements.txt
+    ```
+4.  **Run the script:**
+    ```
+    python sentimentanalysis.py
+    ```
